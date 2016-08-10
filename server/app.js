@@ -21,7 +21,7 @@ var app = express();
 
 
 // *** mongoose *** //
-mongoose.connect('mongodb://192.168.99.100:32770/passport-social-auth');
+mongoose.connect('mongodb://localhost:27017/passport-intercom-example-app');
 
 
 // *** view engine *** //

@@ -7,7 +7,7 @@ Example node web app using [passport-intercom](https://github.com/intercom/passp
 ## Instructions
 
 To install this example on your computer, clone the repository and install
-dependencies.
+dependencies. You'll also need a MongoDB instance running.
 
 ```bash
 $ git clone git@github.com:intercom/passport-intercom-example-app.git
@@ -16,7 +16,9 @@ $ cp server/_config_example.js server/_config.js
 $ npm install
 ```
 
-Replace `clientID`, `clientSecret`, `callbackURL` with appropriate values after applying for OAuth client details [here](https://app.intercom.io/a/apps/_/settings/oauth).
+Replace the `clientID`, `clientSecret`, `callbackURL` values in `server/_config.js` appropriately after applying for OAuth client details [here](https://app.intercom.io/a/apps/_/settings/oauth).
+
+Modify the MongoDB connection URL in `server/app.js` if necessary.
 
 Start the server.
 
