@@ -23,7 +23,7 @@ Modify the MongoDB connection URL in `server/app.js` if necessary.
 Start the server.
 
 ```bash
-$ node server.js
+$ npm start
 ```
 
 Open a web browser and navigate to [http://localhost:3000/](http://localhost:3000/)
