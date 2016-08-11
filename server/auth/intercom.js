@@ -2,7 +2,7 @@ var passport = require('passport');
 var IntercomStrategy = require('passport-intercom').Strategy;
 
 var User = require('../models/user');
-var config = require('../_config');
+var config = require('../config');
 var init = require('./init');
 
 passport.use(new IntercomStrategy({
