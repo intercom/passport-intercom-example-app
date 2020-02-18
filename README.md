@@ -18,7 +18,7 @@ $ cp server/config_example.js server/config.js
 $ npm install
 ```
 
-Replace the `clientID`, `clientSecret`, `callbackURL` values in `server/config.js` appropriately after applying for OAuth client details that you can find in an app's details page in the [Developer Hub](https://app.intercom.io/a/apps/_/developer-hub).
+Replace the `clientID`, `clientSecret`, `callbackURL` values in `server/config.js` appropriately after applying for OAuth client details that you can find in an app's details page in the [Developer Hub](https://app.intercom.com/a/apps/_/developer-hub).
 
 Modify the MongoDB connection URL in `server/app.js` if necessary.
 
